@@ -1,0 +1,257 @@
+sch,species,attenuation,criteria,exposures
+A,Atlantic spotted dolphin,0,injury,0.063032216
+A,Atlantic spotted dolphin,10,injury,0.088016967
+A,Atlantic white sided dolphin,0,injury,0.002483225
+A,Atlantic white sided dolphin,10,injury,0.051396845
+A,Common Bottlenose dolphin offshore,0,injury,0.079405541
+A,Common Bottlenose dolphin offshore,10,injury,0.072308152
+A,Harbor porpoise,10,injury,0.078575408
+A,Long-finned pilot whale,0,injury,0.064704997
+A,Long-finned pilot whale,10,injury,0.066862945
+A,Rissos dolphin,0,injury,0.070686013
+A,Rissos dolphin,10,injury,0.034942886
+A,Short beaked common dolphin,0,injury,0.038382432
+A,Short beaked common dolphin,10,injury,0.069997982
+A,Short-finned pilot whale,0,injury,0.083443276
+A,Short-finned pilot whale,0,behavior,0.116908227
+A,Short-finned pilot whale,10,injury,0.076254337
+A,Short-finned pilot whale,10,behavior,0.041161769
+A,Sperm whale,0,injury,0.133778365
+A,Sperm whale,10,injury,0.070843364
+A,Harbor seal,10,injury,0.069007249
+A,North Atlantic right whale,10,injury,0.482251129
+A,Gray seal,10,injury,0.499326378
+A,Sei whale,10,behavior,0.846858965
+A,Harbor porpoise,0,injury,1.386664554
+A,North Atlantic right whale,0,injury,1.777361629
+A,Sei whale,10,injury,3.062385767
+A,Gray seal,0,injury,7.903373883
+A,Harbor seal,0,injury,12.71562515
+A,Sei whale,0,injury,13.62115482
+A,Fin whale,10,injury,19.58417716
+A,Humpback whale,10,injury,21.23189997
+A,Sei whale,0,behavior,36.07547293
+A,Fin whale,0,injury,36.90915754
+A,Minke whale,10,injury,61.48135843
+A,Long-finned pilot whale,10,behavior,63.82497275
+A,Humpback whale,0,injury,71.2540755
+A,Sperm whale,10,behavior,79.01561138
+A,North Atlantic right whale,10,behavior,85.33625521
+A,Fin whale,10,behavior,103.192655
+A,Minke whale,0,injury,107.413672
+A,Atlantic spotted dolphin,10,behavior,139.4934185
+A,Sperm whale,0,behavior,171.3811382
+A,North Atlantic right whale,0,behavior,222.8832329
+A,Humpback whale,10,behavior,251.9230562
+A,Fin whale,0,behavior,275.8265618
+A,Humpback whale,0,behavior,292.9604116
+A,Long-finned pilot whale,0,behavior,404.4407432
+A,Minke whale,10,behavior,511.3319668
+A,Rissos dolphin,0,behavior,561.7731806
+A,Rissos dolphin,10,behavior,682.1251099
+A,Harbor porpoise,10,behavior,768.5370454
+A,Atlantic spotted dolphin,0,behavior,769.0291105
+A,Minke whale,0,behavior,786.9634585
+A,Common Bottlenose dolphin offshore,10,behavior,803.2810775
+A,Harbor seal,10,behavior,1078.099178
+A,Gray seal,10,behavior,1413.075274
+A,Atlantic white sided dolphin,10,behavior,1441.431914
+A,Harbor porpoise,0,behavior,1780.855716
+A,Common Bottlenose dolphin offshore,0,behavior,4708.972617
+A,Gray seal,0,behavior,5573.161864
+A,Atlantic white sided dolphin,0,behavior,6048.997063
+A,Harbor seal,0,behavior,11247.1754
+A,Short beaked common dolphin,10,behavior,41062.95585
+A,Short beaked common dolphin,0,behavior,89743.45096
+B,Atlantic spotted dolphin,0,injury,0.028335313
+B,Atlantic spotted dolphin,10,injury,0.079301956
+B,Atlantic white sided dolphin,0,injury,0.078181294
+B,Atlantic white sided dolphin,10,injury,0.083313877
+B,Common Bottlenose dolphin offshore,0,injury,0.072557286
+B,Common Bottlenose dolphin offshore,10,injury,0.077151227
+B,Harbor porpoise,10,injury,0.035568795
+B,Long-finned pilot whale,0,injury,0.041340466
+B,Long-finned pilot whale,10,injury,0.089295906
+B,Rissos dolphin,0,injury,0.028889983
+B,Rissos dolphin,10,injury,0.067219208
+B,Short beaked common dolphin,0,injury,0.035939675
+B,Short beaked common dolphin,10,injury,0.057118005
+B,Short-finned pilot whale,0,injury,0.025099917
+B,Short-finned pilot whale,0,behavior,0.050890254
+B,Short-finned pilot whale,10,injury,0.039986973
+B,Short-finned pilot whale,10,behavior,0.060476354
+B,Sperm whale,0,injury,0.057884403
+B,Sperm whale,10,injury,0.054840997
+B,Harbor seal,10,injury,0.056110319
+B,North Atlantic right whale,10,injury,0.404299901
+B,Gray seal,10,injury,0.377011507
+B,Sei whale,10,behavior,0.783356944
+B,Harbor porpoise,0,injury,1.328246169
+B,North Atlantic right whale,0,injury,1.609723796
+B,Sei whale,10,injury,2.786463462
+B,Gray seal,0,injury,6.792622302
+B,Harbor seal,0,injury,9.871800189
+B,Sei whale,0,injury,9.383784353
+B,Fin whale,10,injury,15.43919298
+B,Humpback whale,10,injury,18.05123392
+B,Sei whale,0,behavior,30.46236463
+B,Fin whale,0,injury,34.74949021
+B,Minke whale,10,injury,48.86122762
+B,Long-finned pilot whale,10,behavior,51.5136304
+B,Humpback whale,0,injury,59.98276218
+B,Sperm whale,10,behavior,64.91304131
+B,North Atlantic right whale,10,behavior,77.73804706
+B,Fin whale,10,behavior,85.28783434
+B,Minke whale,0,injury,93.04683189
+B,Atlantic spotted dolphin,10,behavior,104.2714707
+B,Sperm whale,0,behavior,127.4943408
+B,North Atlantic right whale,0,behavior,159.1824232
+B,Humpback whale,10,behavior,200.9016927
+B,Fin whale,0,behavior,245.355375
+B,Humpback whale,0,behavior,272.7213216
+B,Long-finned pilot whale,0,behavior,333.7087761
+B,Minke whale,10,behavior,363.4307224
+B,Rissos dolphin,0,behavior,547.5498901
+B,Rissos dolphin,10,behavior,687.0579754
+B,Harbor porpoise,10,behavior,708.7073654
+B,Atlantic spotted dolphin,0,behavior,634.9050317
+B,Minke whale,0,behavior,743.4509685
+B,Common Bottlenose dolphin offshore,10,behavior,686.0101321
+B,Harbor seal,10,behavior,1027.75286
+B,Gray seal,10,behavior,1192.205571
+B,Atlantic white sided dolphin,10,behavior,1163.6987
+B,Harbor porpoise,0,behavior,1440.157756
+B,Common Bottlenose dolphin offshore,0,behavior,4531.104343
+B,Gray seal,0,behavior,4793.359961
+B,Atlantic white sided dolphin,0,behavior,5739.675692
+B,Harbor seal,0,behavior,9581.420196
+B,Short beaked common dolphin,10,behavior,32198.59596
+B,Short beaked common dolphin,0,behavior,91396.28982
+C,Atlantic spotted dolphin,0,injury,0.06572682
+C,Atlantic spotted dolphin,10,injury,0.143794684
+C,Atlantic white sided dolphin,0,injury,0.002190369
+C,Atlantic white sided dolphin,10,injury,0.055638398
+C,Common Bottlenose dolphin offshore,0,injury,0.113578438
+C,Common Bottlenose dolphin offshore,10,injury,0.113636438
+C,Harbor porpoise,10,injury,0.107796783
+C,Long-finned pilot whale,0,injury,0.118070342
+C,Long-finned pilot whale,10,injury,0.074541198
+C,Rissos dolphin,0,injury,0.062386412
+C,Rissos dolphin,10,injury,0.04833913
+C,Short beaked common dolphin,0,injury,0.051197603
+C,Short beaked common dolphin,10,injury,0.061987692
+C,Short-finned pilot whale,0,injury,0.067848255
+C,Short-finned pilot whale,0,behavior,0.105310624
+C,Short-finned pilot whale,10,injury,0.075480149
+C,Short-finned pilot whale,10,behavior,0.051280471
+C,Sperm whale,0,injury,0.169731316
+C,Sperm whale,10,injury,0.067363675
+C,Harbor seal,10,injury,0.092428097
+C,North Atlantic right whale,10,injury,0.438643633
+C,Gray seal,10,injury,0.621827902
+C,Sei whale,10,behavior,0.718052431
+C,Harbor porpoise,0,injury,1.858929751
+C,North Atlantic right whale,0,injury,2.177160047
+C,Sei whale,10,injury,2.66727655
+C,Gray seal,0,injury,6.558764715
+C,Harbor seal,0,injury,12.16406167
+C,Sei whale,0,injury,13.55771288
+C,Fin whale,10,injury,25.96759546
+C,Humpback whale,10,injury,25.91073188
+C,Sei whale,0,behavior,49.45687371
+C,Fin whale,0,injury,44.32985222
+C,Minke whale,10,injury,67.13073631
+C,Long-finned pilot whale,10,behavior,71.75020431
+C,Humpback whale,0,injury,84.00192947
+C,Sperm whale,10,behavior,115.1434268
+C,North Atlantic right whale,10,behavior,118.6638439
+C,Fin whale,10,behavior,104.7439547
+C,Minke whale,0,injury,174.6845871
+C,Atlantic spotted dolphin,10,behavior,209.3624804
+C,Sperm whale,0,behavior,194.4883599
+C,North Atlantic right whale,0,behavior,254.1479866
+C,Humpback whale,10,behavior,318.6194236
+C,Fin whale,0,behavior,386.667955
+C,Humpback whale,0,behavior,359.9348164
+C,Long-finned pilot whale,0,behavior,533.3521459
+C,Minke whale,10,behavior,664.6797124
+C,Rissos dolphin,0,behavior,621.7709593
+C,Rissos dolphin,10,behavior,929.0427371
+C,Harbor porpoise,10,behavior,979.6853021
+C,Atlantic spotted dolphin,0,behavior,812.472833
+C,Minke whale,0,behavior,759.6867162
+C,Common Bottlenose dolphin offshore,10,behavior,1168.258309
+C,Harbor seal,10,behavior,1385.727126
+C,Gray seal,10,behavior,1530.259096
+C,Atlantic white sided dolphin,10,behavior,2385.962348
+C,Harbor porpoise,0,behavior,2788.943774
+C,Common Bottlenose dolphin offshore,0,behavior,8527.543413
+C,Gray seal,0,behavior,6308.456466
+C,Atlantic white sided dolphin,0,behavior,5612.24264
+C,Harbor seal,0,behavior,13841.95841
+C,Short beaked common dolphin,10,behavior,74610.53823
+C,Short beaked common dolphin,0,behavior,118125.8709
+D,Atlantic spotted dolphin,0,injury,0.069097885
+D,Atlantic spotted dolphin,10,injury,0.098864889
+D,Atlantic white sided dolphin,0,injury,0.002364006
+D,Atlantic white sided dolphin,10,injury,0.058744936
+D,Common Bottlenose dolphin offshore,0,injury,0.095444969
+D,Common Bottlenose dolphin offshore,10,injury,0.074508138
+D,Harbor porpoise,10,injury,0.084375589
+D,Long-finned pilot whale,0,injury,0.071265166
+D,Long-finned pilot whale,10,injury,0.079749636
+D,Rissos dolphin,0,injury,0.079523279
+D,Rissos dolphin,10,injury,0.034456365
+D,Short beaked common dolphin,0,injury,0.044560073
+D,Short beaked common dolphin,10,injury,0.075360801
+D,Short-finned pilot whale,0,injury,0.088521712
+D,Short-finned pilot whale,0,behavior,0.111654837
+D,Short-finned pilot whale,10,injury,0.082147864
+D,Short-finned pilot whale,10,behavior,0.043582683
+D,Sperm whale,0,injury,0.142966363
+D,Sperm whale,10,injury,0.068932856
+D,Harbor seal,10,injury,0.072225841
+D,North Atlantic right whale,10,injury,0.597638441
+D,Gray seal,10,injury,0.550775845
+D,Sei whale,10,behavior,0.739547278
+D,Harbor porpoise,0,injury,1.582096872
+D,North Atlantic right whale,0,injury,1.886044276
+D,Sei whale,10,injury,3.56321888
+D,Gray seal,0,injury,8.847981525
+D,Harbor seal,0,injury,14.15496499
+D,Sei whale,0,injury,13.78981265
+D,Fin whale,10,injury,19.0775412
+D,Humpback whale,10,injury,22.4683375
+D,Sei whale,0,behavior,38.97248733
+D,Fin whale,0,injury,37.01769471
+D,Minke whale,10,injury,66.28087981
+D,Long-finned pilot whale,10,behavior,64.35642583
+D,Humpback whale,0,injury,77.91986044
+D,Sperm whale,10,behavior,85.93056224
+D,North Atlantic right whale,10,behavior,85.01644483
+D,Fin whale,10,behavior,95.71845205
+D,Minke whale,0,injury,115.2980784
+D,Atlantic spotted dolphin,10,behavior,134.5858638
+D,Sperm whale,0,behavior,175.0978331
+D,North Atlantic right whale,0,behavior,223.7601939
+D,Humpback whale,10,behavior,228.8510859
+D,Fin whale,0,behavior,288.4010162
+D,Humpback whale,0,behavior,340.8518254
+D,Long-finned pilot whale,0,behavior,435.6059635
+D,Minke whale,10,behavior,476.0215219
+D,Rissos dolphin,0,behavior,575.3133563
+D,Rissos dolphin,10,behavior,781.5776776
+D,Harbor porpoise,10,behavior,691.0102182
+D,Atlantic spotted dolphin,0,behavior,842.5634143
+D,Minke whale,0,behavior,796.992557
+D,Common Bottlenose dolphin offshore,10,behavior,844.0912856
+D,Harbor seal,10,behavior,1092.744777
+D,Gray seal,10,behavior,1592.487187
+D,Atlantic white sided dolphin,10,behavior,1595.696174
+D,Harbor porpoise,0,behavior,1897.522395
+D,Common Bottlenose dolphin offshore,0,behavior,5177.620638
+D,Gray seal,0,behavior,6248.34283
+D,Atlantic white sided dolphin,0,behavior,5767.973026
+D,Harbor seal,0,behavior,10861.5982
+D,Short beaked common dolphin,10,behavior,44139.06488
+D,Short beaked common dolphin,0,behavior,113923.7078

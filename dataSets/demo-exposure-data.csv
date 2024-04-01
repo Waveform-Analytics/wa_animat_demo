@@ -1,0 +1,137 @@
+sch,species,attenuation,criteria,exposures
+Schedule 1,Atlantic spotted dolphin,0,injury,0
+Schedule 1,Atlantic spotted dolphin,0,behavior,769.0291105
+Schedule 1,Atlantic spotted dolphin,10,injury,0
+Schedule 1,Atlantic spotted dolphin,10,behavior,139.4934185
+Schedule 1,Atlantic white sided dolphin,0,injury,0
+Schedule 1,Atlantic white sided dolphin,0,behavior,6048.997063
+Schedule 1,Atlantic white sided dolphin,10,injury,0
+Schedule 1,Atlantic white sided dolphin,10,behavior,1441.431914
+Schedule 1,Common Bottlenose dolphin offshore,0,injury,0
+Schedule 1,Common Bottlenose dolphin offshore,0,behavior,4708.972617
+Schedule 1,Common Bottlenose dolphin offshore,10,injury,0
+Schedule 1,Common Bottlenose dolphin offshore,10,behavior,803.2810775
+Schedule 1,Fin whale,0,injury,36.90915754
+Schedule 1,Fin whale,0,behavior,275.8265618
+Schedule 1,Fin whale,10,injury,19.58417716
+Schedule 1,Fin whale,10,behavior,103.192655
+Schedule 1,Gray seal,0,injury,7.903373883
+Schedule 1,Gray seal,0,behavior,5573.161864
+Schedule 1,Gray seal,10,injury,0.499326378
+Schedule 1,Gray seal,10,behavior,1413.075274
+Schedule 1,Harbor porpoise,0,injury,1.386664554
+Schedule 1,Harbor porpoise,0,behavior,1780.855716
+Schedule 1,Harbor porpoise,10,injury,0
+Schedule 1,Harbor porpoise,10,behavior,768.5370454
+Schedule 1,Harbor seal,0,injury,12.71562515
+Schedule 1,Harbor seal,0,behavior,11247.1754
+Schedule 1,Harbor seal,10,injury,0.069007249
+Schedule 1,Harbor seal,10,behavior,1078.099178
+Schedule 1,Harp seal,0,injury,9.57875562
+Schedule 1,Harp seal,0,behavior,4770.104309
+Schedule 1,Harp seal,10,injury,0.488754014
+Schedule 1,Harp seal,10,behavior,3032.265549
+Schedule 1,Humpback whale,0,injury,71.2540755
+Schedule 1,Humpback whale,0,behavior,292.9604116
+Schedule 1,Humpback whale,10,injury,21.23189997
+Schedule 1,Humpback whale,10,behavior,251.9230562
+Schedule 1,Long-finned pilot whale,0,injury,0
+Schedule 1,Long-finned pilot whale,0,behavior,404.4407432
+Schedule 1,Long-finned pilot whale,10,injury,0
+Schedule 1,Long-finned pilot whale,10,behavior,63.82497275
+Schedule 1,Minke whale,0,injury,107.413672
+Schedule 1,Minke whale,0,behavior,786.9634585
+Schedule 1,Minke whale,10,injury,61.48135843
+Schedule 1,Minke whale,10,behavior,511.3319668
+Schedule 1,North Atlantic right whale,0,injury,1.777361629
+Schedule 1,North Atlantic right whale,0,behavior,222.8832329
+Schedule 1,North Atlantic right whale,10,injury,0.482251129
+Schedule 1,North Atlantic right whale,10,behavior,85.33625521
+Schedule 1,Risso's dolphin,0,injury,0
+Schedule 1,Risso's dolphin,0,behavior,561.7731806
+Schedule 1,Risso's dolphin,10,injury,0
+Schedule 1,Risso's dolphin,10,behavior,682.1251099
+Schedule 1,Sei whale,0,injury,13.62115482
+Schedule 1,Sei whale,0,behavior,36.07547293
+Schedule 1,Sei whale,10,injury,3.062385767
+Schedule 1,Sei whale,10,behavior,0.846858965
+Schedule 1,Short beaked common dolphin,0,injury,0
+Schedule 1,Short beaked common dolphin,0,behavior,89743.45096
+Schedule 1,Short beaked common dolphin,10,injury,0
+Schedule 1,Short beaked common dolphin,10,behavior,41062.95585
+Schedule 1,Short-finned pilot whale,0,injury,0
+Schedule 1,Short-finned pilot whale,0,behavior,0
+Schedule 1,Short-finned pilot whale,10,injury,0
+Schedule 1,Short-finned pilot whale,10,behavior,0
+Schedule 1,Sperm whale,0,injury,0
+Schedule 1,Sperm whale,0,behavior,171.3811382
+Schedule 1,Sperm whale,10,injury,0
+Schedule 1,Sperm whale,10,behavior,79.01561138
+Schedule 2,Atlantic spotted dolphin,0,injury,0
+Schedule 2,Atlantic spotted dolphin,0,behavior,492.3441377
+Schedule 2,Atlantic spotted dolphin,10,injury,0
+Schedule 2,Atlantic spotted dolphin,10,behavior,353.1378644
+Schedule 2,Atlantic white sided dolphin,0,injury,0
+Schedule 2,Atlantic white sided dolphin,0,behavior,8371.589109
+Schedule 2,Atlantic white sided dolphin,10,injury,0
+Schedule 2,Atlantic white sided dolphin,10,behavior,3063.067855
+Schedule 2,Common Bottlenose dolphin offshore,0,injury,0
+Schedule 2,Common Bottlenose dolphin offshore,0,behavior,10329.60165
+Schedule 2,Common Bottlenose dolphin offshore,10,injury,0
+Schedule 2,Common Bottlenose dolphin offshore,10,behavior,695.8651767
+Schedule 2,Fin whale,0,injury,108.270495
+Schedule 2,Fin whale,0,behavior,373.6608653
+Schedule 2,Fin whale,10,injury,24.9890017
+Schedule 2,Fin whale,10,behavior,30.86048335
+Schedule 2,Gray seal,0,injury,2.094315211
+Schedule 2,Gray seal,0,behavior,4636.914465
+Schedule 2,Gray seal,10,injury,1.280506036
+Schedule 2,Gray seal,10,behavior,2024.77051
+Schedule 2,Harbor porpoise,0,injury,1.401922372
+Schedule 2,Harbor porpoise,0,behavior,102.7964963
+Schedule 2,Harbor porpoise,10,injury,0
+Schedule 2,Harbor porpoise,10,behavior,744.5372767
+Schedule 2,Harbor seal,0,injury,28.43581949
+Schedule 2,Harbor seal,0,behavior,7133.206319
+Schedule 2,Harbor seal,10,injury,0.356417116
+Schedule 2,Harbor seal,10,behavior,2024.242161
+Schedule 2,Harp seal,0,injury,40.32905906
+Schedule 2,Harp seal,0,behavior,9089.676396
+Schedule 2,Harp seal,10,injury,1.537287329
+Schedule 2,Harp seal,10,behavior,5171.694685
+Schedule 2,Humpback whale,0,injury,91.21017617
+Schedule 2,Humpback whale,0,behavior,328.5558563
+Schedule 2,Humpback whale,10,injury,44.38640203
+Schedule 2,Humpback whale,10,behavior,352.0533916
+Schedule 2,Long-finned pilot whale,0,injury,0
+Schedule 2,Long-finned pilot whale,0,behavior,502.7742857
+Schedule 2,Long-finned pilot whale,10,injury,0
+Schedule 2,Long-finned pilot whale,10,behavior,497.9632833
+Schedule 2,Minke whale,0,injury,560.8421934
+Schedule 2,Minke whale,0,behavior,1020.86134
+Schedule 2,Minke whale,10,injury,38.29599425
+Schedule 2,Minke whale,10,behavior,374.7896788
+Schedule 2,North Atlantic right whale,0,injury,17.13370632
+Schedule 2,North Atlantic right whale,0,behavior,162.4217848
+Schedule 2,North Atlantic right whale,10,injury,5.196294065
+Schedule 2,North Atlantic right whale,10,behavior,158.5278415
+Schedule 2,Risso's dolphin,0,injury,0
+Schedule 2,Risso's dolphin,0,behavior,1155.897454
+Schedule 2,Risso's dolphin,10,injury,0
+Schedule 2,Risso's dolphin,10,behavior,734.5813756
+Schedule 2,Sei whale,0,injury,5.27989107
+Schedule 2,Sei whale,0,behavior,45.9400022
+Schedule 2,Sei whale,10,injury,3.607499314
+Schedule 2,Sei whale,10,behavior,84.57953249
+Schedule 2,Short beaked common dolphin,0,injury,0
+Schedule 2,Short beaked common dolphin,0,behavior,110265.0593
+Schedule 2,Short beaked common dolphin,10,injury,0
+Schedule 2,Short beaked common dolphin,10,behavior,89124.13893
+Schedule 2,Short-finned pilot whale,0,injury,0
+Schedule 2,Short-finned pilot whale,0,behavior,0
+Schedule 2,Short-finned pilot whale,10,injury,0
+Schedule 2,Short-finned pilot whale,10,behavior,0
+Schedule 2,Sperm whale,0,injury,0
+Schedule 2,Sperm whale,0,behavior,117.2087836
+Schedule 2,Sperm whale,10,injury,0
+Schedule 2,Sperm whale,10,behavior,172.9554779
