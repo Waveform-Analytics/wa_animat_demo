@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ExposuresDashboard</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,alt,wide.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,alt,wide.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
+<link rel="modulepreload" href="./_observablehq/client.js">
+<link rel="modulepreload" href="./_observablehq/runtime.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.js">
+<link rel="modulepreload" href="./_import/components/plots.ca492571.js">
+<link rel="modulepreload" href="./_import/components/tables.a8086df0.js">
+<link rel="modulepreload" href="./_import/components/tools.427c9250.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.14/_esm.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/_esm.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/_esm.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/_esm.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/_esm.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/_esm.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/_esm.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.js";
+import {registerFile} from "./_observablehq/stdlib.js";
+
+registerFile("./data/demo-exposure-data2.csv", {"name":"./data/demo-exposure-data2.csv","mimeType":"text/csv","path":"./_file/data/demo-exposure-data2.bc66d2a4.csv","lastModified":1711764042352});
+registerFile("./data/species-info.csv", {"name":"./data/species-info.csv","mimeType":"text/csv","path":"./_file/data/species-info.cdf04036.csv","lastModified":1711764042411});
+
+define({id: "0228653f", outputs: ["plotScheduleCompare","plotSpread","plotHearingGroups","plotHearingGroupTicks","arrayToTable","groupAndSummarizeTwoKeys","groupAndSummarizeThreeKeys","groupArr"], body: async () => {
+const [{plotScheduleCompare, plotSpread, plotHearingGroups, plotHearingGroupTicks}, {arrayToTable}, {groupAndSummarizeTwoKeys, groupAndSummarizeThreeKeys, groupArr}] = await Promise.all([import("./_import/components/plots.ca492571.js"), import("./_import/components/tables.a8086df0.js"), import("./_import/components/tools.427c9250.js")]);
+
+return {plotScheduleCompare,plotSpread,plotHearingGroups,plotHearingGroupTicks,arrayToTable,groupAndSummarizeTwoKeys,groupAndSummarizeThreeKeys,groupArr};
+}});
+
+define({id: "0f852833", inline: true, inputs: ["criteriaInput2","display"], body: async (criteriaInput2,display) => {
+display(await(
+criteriaInput2
+))
+}});
+
+define({id: "70e9df6f", inline: true, inputs: ["speciesTableInput","display"], body: async (speciesTableInput,display) => {
+display(await(
+speciesTableInput
+))
+}});
+
+define({id: "555128e2", inline: true, inputs: ["criteriaInput3","display"], body: async (criteriaInput3,display) => {
+display(await(
+criteriaInput3
+))
+}});
+
+define({id: "e66fc056", inline: true, inputs: ["resize","plotHearingGroupTicks","subsetTenDb","criteriaPick3","display"], body: async (resize,plotHearingGroupTicks,subsetTenDb,criteriaPick3,display) => {
+display(await(
+resize((width) =>plotHearingGroupTicks(subsetTenDb, criteriaPick3, {width}))
+))
+}});
+
+define({id: "0f367660", inline: true, inputs: ["longNameLookup","speciesTablePick","display"], body: async (longNameLookup,speciesTablePick,display) => {
+display(await(
+longNameLookup(speciesTablePick["shortName"])
+))
+}});
+
+define({id: "5f2cf4d7", inline: true, inputs: ["resize","plotScheduleCompare","demoExposureData","speciesTablePick","display"], body: async (resize,plotScheduleCompare,demoExposureData,speciesTablePick,display) => {
+display(await(
+resize((width) => plotScheduleCompare(demoExposureData, "behavior", 10, speciesTablePick["shortName"],{width}))
+))
+}});
+
+define({id: "0f367660-1", inline: true, inputs: ["longNameLookup","speciesTablePick","display"], body: async (longNameLookup,speciesTablePick,display) => {
+display(await(
+longNameLookup(speciesTablePick["shortName"])
+))
+}});
+
+define({id: "88e19d6f", inline: true, inputs: ["resize","plotScheduleCompare","demoExposureData","speciesTablePick","display"], body: async (resize,plotScheduleCompare,demoExposureData,speciesTablePick,display) => {
+display(await(
+resize((width) => plotScheduleCompare(demoExposureData, "injury", 10, speciesTablePick["shortName"],{width}))
+))
+}});
+
+define({id: "9f57d8c1", inline: true, inputs: ["criteriaInput","display"], body: async (criteriaInput,display) => {
+display(await(
+criteriaInput
+))
+}});
+
+define({id: "4bf5b95e", inline: true, inputs: ["resize","plotSpread","demoExposureData","criteriaPick","display"], body: async (resize,plotSpread,demoExposureData,criteriaPick,display) => {
+display(await(
+resize((width) => plotSpread(demoExposureData, criteriaPick, 10, {width}))
+))
+}});
+
+define({id: "629955c8", inputs: ["FileAttachment"], outputs: ["demoExposureData","speciesInfo"], body: (FileAttachment) => {
+// Load datasets
+const demoExposureData = FileAttachment("./data/demo-exposure-data2.csv").csv({typed: true});
+const speciesInfo = FileAttachment("./data/species-info.csv").csv({typed: true})
+
+return {demoExposureData,speciesInfo};
+}});
+
+define({id: "fd4f8b84", inputs: ["demoExposureData","speciesInfo"], outputs: ["speciesMap","newAbundanceColumn","newHearingGroupColumn","newShortNamesColumn"], body: (demoExposureData,speciesInfo) => {
+// Combine datasets
+const speciesMap = demoExposureData.map(
+  expItem => speciesInfo.find(specItem => specItem.species === expItem.species))
+
+// Add the abundance column from the speciesInfo array to the demoExposureData array
+const newAbundanceColumn = speciesMap.map(item => item.abundance)
+demoExposureData.map((item, i) => item.abundance = newAbundanceColumn[i])
+
+// Add the hearing group column from speciesInfo array
+const newHearingGroupColumn = speciesMap.map(item => item.hearing_group)
+demoExposureData.map((item, i) => item.hearingGroup = newHearingGroupColumn[i])
+
+// Add short names 
+const newShortNamesColumn = speciesMap.map(item => item.shortName)
+demoExposureData.map((item, i) => item.shortName = newShortNamesColumn[i])
+
+// Compute percent abundance
+demoExposureData.map(item => item.percentAbundance = 100 * item.exposures / item.abundance)
+
+return {speciesMap,newAbundanceColumn,newHearingGroupColumn,newShortNamesColumn};
+}});
+
+define({id: "bd912864", inputs: ["speciesMap"], outputs: ["longNameLookup"], body: (speciesMap) => {
+function longNameLookup(shortName) {
+  return speciesMap.find(item => item.shortName === shortName)["species"];
+}
+
+return {longNameLookup};
+}});
+
+define({id: "182fbc31", inputs: ["demoExposureData","Inputs","Generators"], outputs: ["uniqueSpecies","speciesInput","speciesPick"], body: (demoExposureData,Inputs,Generators) => {
+// Species Pick input
+const uniqueSpecies = [...new Set(demoExposureData.map(d => d.species))];
+const speciesInput = Inputs.select(uniqueSpecies, 
+{ 
+  label: "Select species:",
+});
+const speciesPick = Generators.input(speciesInput);
+
+return {uniqueSpecies,speciesInput,speciesPick};
+}});
+
+define({id: "210c93aa", inputs: ["Inputs","Generators"], outputs: ["criteriaInput","criteriaPick"], body: (Inputs,Generators) => {
+// Criteria Pick input
+const criteriaInput = Inputs.select(["injury", "behavior"], 
+{label: "Select criteria:"});
+const criteriaPick = Generators.input(criteriaInput);
+return {criteriaInput,criteriaPick};
+}});
+
+define({id: "2a172f95", inputs: ["Inputs","Generators"], outputs: ["criteriaInput2","criteriaPick2"], body: (Inputs,Generators) => {
+// Criteria Pick input # 2
+const criteriaInput2 = Inputs.select(["injury", "behavior"], 
+{label: "Select criteria:"});
+const criteriaPick2 = Generators.input(criteriaInput2);
+return {criteriaInput2,criteriaPick2};
+}});
+
+define({id: "e8febe59", inputs: ["Inputs","Generators"], outputs: ["criteriaInput3","criteriaPick3"], body: (Inputs,Generators) => {
+// Criteria Pick input # 3
+const criteriaInput3 = Inputs.select(["injury", "behavior"], 
+{label: "Select criteria:"});
+const criteriaPick3 = Generators.input(criteriaInput3);
+return {criteriaInput3,criteriaPick3};
+}});
+
+define({id: "a1556bd7", inputs: ["arrayToTable","demoExposureData","criteriaPick2","width","Generators"], outputs: ["speciesTableInput","speciesTablePick"], body: (arrayToTable,demoExposureData,criteriaPick2,width,Generators) => {
+const speciesTableInput = arrayToTable(demoExposureData, criteriaPick2, 10, {width});
+const speciesTablePick = Generators.input(speciesTableInput);
+
+return {speciesTableInput,speciesTablePick};
+}});
+
+define({id: "43b7106e", inputs: ["demoExposureData","groupArr","groupAndSummarizeTwoKeys","groupAndSummarizeThreeKeys"], outputs: ["subsetTenDb","groupedData","groupedDataTwo","groupedDataThree"], body: (demoExposureData,groupArr,groupAndSummarizeTwoKeys,groupAndSummarizeThreeKeys) => {
+const subsetTenDb = demoExposureData.filter(d => d.attenuation === 10);
+const groupedData = groupArr(subsetTenDb, "hearingGroup", "criteria", "percentAbundance")
+const groupedDataTwo = groupAndSummarizeTwoKeys(subsetTenDb, "hearingGroup", "criteria", "percentAbundance")
+const groupedDataThree = groupAndSummarizeThreeKeys(subsetTenDb, "hearingGroup", "criteria", "sch", "percentAbundance")
+return {subsetTenDb,groupedData,groupedDataTwo,groupedDataThree};
+}});
+
+</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<h1>Offshore Wind Noise Exposures</h1>
+<p>This dashboard explores a demo dataset describing the number of animals predicted to be impacted in some way from offshore construction noise. <strong>The dataset is totally fake</strong> but it is in fact based on real datasets that are used to inform offshore wind permitting decisions.</p>
+<div id="cell-0228653f" class="observablehq observablehq--block"></div>
+<style type="text/css">
+
+@container (min-width: 560px) {
+  .grid-cols-2-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-cols-2-3 .grid-colspan-2 {
+    grid-column: span 2;
+  }
+}
+
+@container (min-width: 840px) {
+  .grid-cols-2-3 {
+    grid-template-columns: 1fr 2fr;
+    grid-auto-flow: column;
+  }
+}
+
+</style>
+<div class="grid grid-cols-3">
+  <div class="card grid-colspan-2">
+  <h2> Predicted exposures by species</h2>
+  Select a species to display details in summary plots below.
+<p><span id="cell-0f852833" class="observablehq--loading"></span></p>
+<p><span id="cell-70e9df6f" class="observablehq--loading"></span></p>
+  </div>
+  <div class="card">
+  <h2>Summary exposures by hearing group</h2>
+  Low frequency (LF), mid frequency (MF), high frequency (HF), and phocid pinnipeds in water (PW).
+<p><span id="cell-555128e2" class="observablehq--loading"></span></p>
+<p><span id="cell-e66fc056" class="observablehq--loading"></span></p>
+  </div>
+</div>
+<div class="grid grid-cols-2-3">
+  <div class="card">
+  <h2>Behavioral exposures: % of population</h2>
+  <h2><span id="cell-0f367660" class="observablehq--loading"></span></h2>
+  <span id="cell-5f2cf4d7" class="observablehq--loading"></span></div>
+  <div class="card">
+  <h2>Injury exposures: % of population</h2>
+  <h2><span id="cell-0f367660-1" class="observablehq--loading"></span></h2>
+  <span id="cell-88e19d6f" class="observablehq--loading"></span></div>
+  <div class="card grid-colspan-2 grid-rowspan-2" style="display: flex; flex-direction: column;">
+  <h2>Predicted exposures for different schedules</h2>
+  Predicted number of animals exposed to sounds that might cause either injury or behavioral disturbance. Different schedules are compared.
+<p><span id="cell-9f57d8c1" class="observablehq--loading"></span></p>
+<p><span id="cell-4bf5b95e" class="observablehq--loading"></span></p>
+  </div>
+</div>
+<div id="cell-629955c8" class="observablehq observablehq--block"></div>
+<div id="cell-fd4f8b84" class="observablehq observablehq--block"></div>
+<div id="cell-bd912864" class="observablehq observablehq--block"></div>
+<div id="cell-182fbc31" class="observablehq observablehq--block"></div>
+<div id="cell-210c93aa" class="observablehq observablehq--block"></div>
+<div id="cell-2a172f95" class="observablehq observablehq--block"></div>
+<div id="cell-e8febe59" class="observablehq observablehq--block"></div>
+<div id="cell-a1556bd7" class="observablehq observablehq--block"></div>
+<div id="cell-43b7106e" class="observablehq observablehq--block"></div>
+<!-- ```js
+display(groupedDataThree)
+
+``` --></main>
+<footer id="observablehq-footer">
+<div>© 2024 Waveform Analytics</div>
+</footer>
+</div>
