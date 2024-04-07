@@ -12,6 +12,8 @@ export default {
     // }
   ],
 
+  head: `<link rel="icon" href="/favicon.png">`,
+
   theme: ["dashboard", "light"], // try "light", "dark", "slate", etc.
   // header: "", // what to show in the header (HTML)
   footer: "© 2024 Waveform Analytics", // what to show in the footer (HTML)
