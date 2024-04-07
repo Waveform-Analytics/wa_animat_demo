@@ -5,7 +5,7 @@ toc: false
 <h1>Offshore Wind Noise Exposures</h1>
 
 
-This dashboard explores a demo dataset describing the number of animals predicted to be impacted in some way from offshore construction noise. __The dataset is totally fake__ but it is in fact based on real datasets that are used to inform offshore wind permitting decisions.
+This dashboard explores a demo dataset describing the number of animals predicted to be impacted in some way from offshore construction noise. __The dataset is totally fake__ but it is in fact based on real datasets that are used to inform offshore wind permitting decisions. All of the exposures have been scaled to 
 
 
 ```js
